@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.eplan.help)",
+      "Bash(python fix_failed.py:*)",
+      "Bash(pip install:*)",
+      "Bash(python rag_index.py:*)",
+      "Bash(python -c:*)",
+      "Bash(python:*)",
+      "Bash(PYTHONIOENCODING=utf-8 python:*)",
+      "Bash(gh auth status:*)",
+      "Bash(winget install:*)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
+      "Bash(gh auth login:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
